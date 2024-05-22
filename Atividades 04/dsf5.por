@@ -2,7 +2,8 @@ programa
 {
 	
 	funcao inicio()
-	{ inteiro i, quantidade = 0, quantia = 0
+	{
+ inteiro i, quantidade = 0, quantia = 0
 	 real altura, media, maior =0.0, menor = 0.0, soma = 0.0, mulheres = 0.0, feminino = 0.0
 	 cadeia sexo
 	 
@@ -19,7 +20,7 @@ programa
 		  		maior = altura
 		  		
 		  }
-		  senao se(menor == 0 ou altura < menor){
+		   se(menor == 0 ou altura < menor){
 		  	menor = altura
 		  	
 		  }
