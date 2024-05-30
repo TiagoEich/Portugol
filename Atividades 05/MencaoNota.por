@@ -2,12 +2,14 @@ programa
 {
 	
 	funcao inicio()
-	{ real vetor[20]
+	{
+ real vetor[20]
 	  inteiro i
 		para(i = 0; i<20; i ++){
 			escreva("Informe a nota do "+(i+1)+"° aluno: ")
 			leia(vetor[i])
-		}para(i = 0; i < 20; i ++){
+		}escreva("\n\n")
+               para(i = 0; i < 20; i ++){
 		escreva("Nota do "+(i+1)+"° aluno: ")
 			se(vetor[i] >= 8 e vetor[i] <=10){
 				escreva("Menção AP\n")
