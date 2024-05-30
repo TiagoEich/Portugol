@@ -2,25 +2,28 @@ programa
 {
 	
 	funcao inicio()
-	{    real vetor [30], menor = 0.0, maior = 0.0
-	    inteiro i =0
-		para( i = 0; i <30; i++){
+	{    real vetor [10], menos = 0.0, maior = 0.0
+	    inteiro i =0, posicao1 = 0, posicaoult = 0
+		para( i = 0; i <10; i++){
 			escreva("Informe o tempo de corrida em segundos do "+(i+1)+"° corredor: ")
 			leia(vetor[i])}
-			para(i =0; i <30; i++){
+			para(i =0; i <10; i++){
 		se(vetor [i] > maior){
-			maior = vetor[i]}
-			 se(menor == 0 ou vetor[i] < menor){
-				menor = vetor[i]
+			maior = vetor[i]
+			
+			posicaoult = i}
+			
+			 se(menos == 0 ou vetor[i] < menos){
+				menos = vetor[i]
+				posicao1 = i
 			}
-			}escreva("\nO primeiro colocado terminou a corrida em "+maior+" segundos")
-			escreva("\nO último colocado terminou a corrida em "+menor+" segundos")
-		
+			} escreva("\nO primeiro colocado, que representa o número "+(posicao1+1)+" terminou a corrida em "+menos+" segundos")
+			escreva("\nO último colocado, que representa o número "+ (posicaoult+1)+" terminou a corrida em "+maior+" segundos")
 	}
 }
 
 /* Elabore um algoritmo que lê o tempo de corrida de 30 corredores (em segundos), 
-em seguida ele apresenta o tempo do primeiro e do último colocados, seguido da sua posição. 5,59,11,10,25
+em seguida ele apresenta o tempo do primeiro e do último colocados, seguido da sua posição. 5,59,11,10,25\
 
 /* $$$ Portugol Studio $$$ 
  * 
