@@ -8,10 +8,10 @@ programa
 		leia(numero)
 		
 		se(numero <0){
-			escreva("Atenção! Número negativo digitado.\n\n")
+		escreva("Atenção! Número negativo digitado.\n\n")
 			
 		}senao se(numero %2 == 0 )
-			escreva("Número par!")
+		escreva("Número par!")
 			
 		senao
 		escreva("Número ímpar!")
