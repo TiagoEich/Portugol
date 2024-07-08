@@ -23,7 +23,7 @@ programa
                  escreva("Informe quantas refeições você fez hoje: ")
                  leia(quantia)
                  para(i=0; i<quantia; i++){
-                 	escreva("Informe quantas calorias consumiu na "+(i+1)+" refeição: ")
+                 	escreva("Informe quantas calorias consumiu na "+(i+1)+"° refeição: ")
                  	leia(calorias)
                  	totalcal = calorias + totalcal
                  }limpa()
